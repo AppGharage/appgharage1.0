@@ -24,4 +24,37 @@ and (max-width : 767px) {
 .below{
 	padding-top: 50px;
 }
+.on-mobile{
+	display: block !important;
+}
+.on-desktop{
+	display: none !important;
+}
+.padding-top{
+	padding-top: 50px;
+}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+.on-mobile{
+	display: none !important;
+}
+.on-desktop{
+	display: block !important;
+}
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+.on-mobile{
+	display: none !important;
+}
+.on-desktop{
+	display: block !important;
+}
 }

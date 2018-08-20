@@ -98,3 +98,13 @@ button{
 	font-size: 14px;
 	color: #fff;
 }
+.uk-active{
+	font-weight: 800 !important;
+	font-size: 18px;
+}
+.why-title{
+	font-size: 14px;
+}
+.why li{
+	font-size: 12px;
+}

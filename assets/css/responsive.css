@@ -18,4 +18,10 @@ and (max-width : 767px) {
 .security-icon{
 	display: none;
 }
+.help-icon{
+	width: 150px;
+}
+.below{
+	padding-top: 50px;
+}
 }

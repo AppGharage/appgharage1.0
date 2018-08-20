@@ -1,0 +1,92 @@
+*{
+	font-family: 'Comfortaa', cursive !important;
+}
+body{
+	height: 100vh;
+	background-image: url('../images/bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+h1, h2, h3, h4, h5{
+
+}
+a{
+
+}
+span{
+
+}
+button{
+
+}
+.paddingtop{
+	padding-top: 20px;
+}
+.signin{
+	background-color: transparent !important;
+	color: #4596EA !important;
+	outline: solid 1px;
+}
+.white-outline{
+	background-color: transparent !important;
+	color: #fff !important;
+	outline: solid 1px #fff;
+}
+.center-text{
+	position: absolute;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+.title{
+	text-align: center;
+	font-weight: 600;
+}
+.leading-text{
+	font-weight: 800;
+}
+.grey-section{
+	background-color: #F2F2F2;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.card{
+	text-align: center;
+}
+.card-image{
+	padding-left: 20%;
+	padding-right: 20%;
+}
+.card-title{
+	font-size: 18px;
+}
+.card-body-text{
+	font-size: 12px;
+	color: #5D5D5D;
+}
+.specialist-card-title{
+	font-size: 16px;
+	color: #4596EA;
+}
+.specialist-card-body-text{
+	font-size: 14px;
+	color: #5D5D5D;
+}
+.specialist-card-body-text span{
+	display: block;
+}
+.text-right-align{
+	text-align: right;
+}
+.footer-section{
+	background-color: #4596EA;
+	padding-top: 40px;
+}
+.footer-section h3{
+	font-size: 24px;
+	color: #fff;
+}
+.footer-section p{
+	font-size: 14px;
+	color: #fff;
+}

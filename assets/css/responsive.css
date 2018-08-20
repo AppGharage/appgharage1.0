@@ -33,6 +33,12 @@ and (max-width : 767px) {
 .padding-top{
 	padding-top: 50px;
 }
+.main-nav{
+	display: none;
+}
+.mobile-nav{
+	display: block !important;
+}
 }
 
 /* Desktops and laptops ----------- */

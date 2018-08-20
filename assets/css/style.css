@@ -108,3 +108,12 @@ button{
 .why li{
 	font-size: 12px;
 }
+.mobile-nav{
+	color: #000 !important;
+}
+.mobile ul{
+	display: block;
+}
+.mobile ul li{
+	display: block;
+}

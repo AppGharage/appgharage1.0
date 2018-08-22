@@ -149,3 +149,6 @@ button {}
 .mobile ul li {
     display: block;
 }
+.uk-nav-header{
+    color: #c4c4c4 !important;
+}

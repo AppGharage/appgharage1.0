@@ -1,14 +1,16 @@
 * {
     font-family: 'Comfortaa', cursive !important;
 }
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 body {
-    height: 100vh;
     background-image: url('../images/bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    overflow-x: hidden;
 }
 
 h1,
@@ -61,7 +63,6 @@ button {}
     background-color: #F2F2F2;
     padding-top: 40px;
     padding-bottom: 40px;
-    overflow-x: hidden;
 }
 
 .uk-input {
@@ -112,7 +113,6 @@ button {}
 .footer-section {
     background-color: #4596EA;
     padding-top: 40px;
-    overflow-x: hidden;
 }
 
 .footer-section h3 {

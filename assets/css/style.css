@@ -24,6 +24,9 @@ a {}
 span {}
 
 button {}
+.logo{
+    width: 150px !important;
+}
 
 .paddingtop {
     padding-top: 20px;

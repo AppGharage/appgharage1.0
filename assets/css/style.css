@@ -32,6 +32,11 @@ button {}
 .signin {
     background-color: transparent !important;
     color: #4596EA !important;
+    outline: 1px solid #4596EA !important;
+}
+.contact{
+    background-color: transparent !important;
+    color: #4596EA !important;
     outline: solid 1px;
 }
 

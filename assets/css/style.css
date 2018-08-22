@@ -1,119 +1,149 @@
-*{
-	font-family: 'Comfortaa', cursive !important;
+* {
+    font-family: 'Comfortaa', cursive !important;
 }
-body{
-	height: 100vh;
-	background-image: url('../images/bg.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	overflow-x: hidden;
-}
-h1, h2, h3, h4, h5{
 
+body {
+    height: 100vh;
+    background-image: url('../images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
 }
-a{
 
-}
-span{
+h1,
+h2,
+h3,
+h4,
+h5 {}
 
-}
-button{
+a {}
 
+span {}
+
+button {}
+
+.paddingtop {
+    padding-top: 20px;
 }
-.paddingtop{
-	padding-top: 20px;
+
+.signin {
+    background-color: transparent !important;
+    color: #4596EA !important;
+    outline: solid 1px;
 }
-.signin{
-	background-color: transparent !important;
-	color: #4596EA !important;
-	outline: solid 1px;
+
+.white-outline {
+    background-color: transparent !important;
+    color: #fff !important;
+    outline: solid 1px #fff;
 }
-.white-outline{
-	background-color: transparent !important;
-	color: #fff !important;
-	outline: solid 1px #fff;
+
+.center-text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
-.center-text{
-	position: absolute;
-  	top: 50%;
-  	transform: translateY(-50%);
+
+.title {
+    text-align: center;
 }
-.title{
-	text-align: center;
+
+.title h3 {
+    font-weight: 800;
 }
-.title h3{
-	font-weight: 800;
+
+.leading-text {
+    font-weight: 800;
 }
-.leading-text{
-	font-weight: 800;
+
+.grey-section {
+    background-color: #F2F2F2;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
-.grey-section{
-	background-color: #F2F2F2;
-	padding-top: 40px;
-	padding-bottom: 40px;
+
+.uk-input {
+    border-radius: 5px;
 }
-.card{
-	text-align: center;
+
+.card {
+    text-align: center;
 }
-.card-image{
-	padding-left: 20%;
-	padding-right: 20%;
-	height: 70px;
-	width: 70px;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
+
+.card-image {
+    padding-left: 20%;
+    padding-right: 20%;
+    height: 70px;
+    width: 70px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-.card-title{
-	font-size: 18px;
+
+.card-title {
+    font-size: 18px;
 }
-.card-body-text{
-	font-size: 12px;
-	color: #5D5D5D;
+
+.card-body-text {
+    font-size: 12px;
+    color: #5D5D5D;
 }
-.specialist-card-title{
-	font-size: 16px;
-	color: #4596EA;
+
+.specialist-card-title {
+    font-size: 16px;
+    color: #4596EA;
 }
-.specialist-card-body-text{
-	font-size: 14px;
-	color: #5D5D5D;
+
+.specialist-card-body-text {
+    font-size: 14px;
+    color: #5D5D5D;
 }
-.specialist-card-body-text span{
-	display: block;
+
+.specialist-card-body-text span {
+    display: block;
 }
-.text-right-align{
-	text-align: right;
+
+.text-right-align {
+    text-align: right;
 }
-.footer-section{
-	background-color: #4596EA;
-	padding-top: 40px;
+
+.footer-section {
+    background-color: #4596EA;
+    padding-top: 40px;
 }
-.footer-section h3{
-	font-size: 24px;
-	color: #fff;
+
+.footer-section h3 {
+    font-size: 24px;
+    color: #fff;
 }
-.footer-section p{
-	font-size: 14px;
-	color: #fff;
+
+.footer-section p {
+    font-size: 14px;
+    color: #fff;
 }
-.uk-active{
-	font-weight: 800 !important;
-	font-size: 18px;
+
+.uk-active {
+    font-weight: 800 !important;
+    font-size: 18px;
 }
-.why-title{
-	font-size: 14px;
+
+.why-title {
+    font-size: 14px;
 }
-.why li{
-	font-size: 12px;
+
+.why li {
+    font-size: 12px;
 }
-.mobile-nav{
-	color: #000 !important;
+
+.mobile-nav {
+    color: #000 !important;
 }
-.mobile ul{
-	display: block;
+
+.mobile ul {
+    display: block;
 }
-.mobile ul li{
-	display: block;
+
+.mobile ul li {
+    display: block;
 }

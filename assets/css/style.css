@@ -1,14 +1,16 @@
 * {
     font-family: 'Comfortaa', cursive !important;
 }
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
 
 body {
-    height: 100vh;
     background-image: url('../images/bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    overflow-x: hidden;
 }
 
 h1,
@@ -40,7 +42,7 @@ button {}
 }
 
 .center-text {
-    position: absolute;
+    position: relative;
     top: 50%;
     transform: translateY(-50%);
 }

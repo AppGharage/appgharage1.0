@@ -1,14 +1,16 @@
 * {
     font-family: 'Comfortaa', cursive !important;
 }
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
 
 body {
-    height: 100vh;
     background-image: url('../images/bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    overflow-x: hidden;
 }
 
 h1,
@@ -22,12 +24,20 @@ a {}
 span {}
 
 button {}
+.logo{
+    width: 150px !important;
+}
 
 .paddingtop {
     padding-top: 20px;
 }
 
 .signin {
+    background-color: transparent !important;
+    color: #4596EA !important;
+    outline: 1px solid #4596EA !important;
+}
+.contact{
     background-color: transparent !important;
     color: #4596EA !important;
     outline: solid 1px;
@@ -40,7 +50,7 @@ button {}
 }
 
 .center-text {
-    position: absolute;
+    position: relative;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -146,4 +156,10 @@ button {}
 
 .mobile ul li {
     display: block;
+}
+.uk-nav-header{
+    color: #c4c4c4 !important;
+}
+.dd{
+    padding-bottom: 100px !important;
 }

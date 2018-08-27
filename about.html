@@ -65,6 +65,12 @@
             height: 280px;
             z-index: 3;
         }
+        .social-anth {
+            display: none;
+            width: 265px;
+            height: 280px;
+            z-index: 3;
+        }
         .baff-baff:hover {
             /*background: rgba(0,0,0,0.5);*/
             /*filter: grayscale(1);*/
@@ -90,7 +96,12 @@
             /*filter: grayscale(1);*/
             filter: grayscale(1) contrast(1);
         }
-      .sali-sali:hover {
+        .sali-sali:hover {
+            /*background: rgba(0,0,0,0.5);*/
+            /*filter: grayscale(1);*/
+            filter: grayscale(1) contrast(1);
+        }
+        .anth-anth:hover {
             /*background: rgba(0,0,0,0.5);*/
             /*filter: grayscale(1);*/
             filter: grayscale(1) contrast(1);
@@ -116,6 +127,10 @@
             z-index: 3;
         }
         .social-sali, i, .position:hover {
+            color: #fff;
+            z-index: 3;
+        }
+        .social-anth, i, .position:hover {
             color: #fff;
             z-index: 3;
         }
@@ -449,7 +464,17 @@
                                                     <!-- <h5 style="margin-top: 20px; text-align: center;">BAFFOUR ADU-BOAMPONG</h5>
                                                     <p style="margin-top: -10px; text-align: center;">Founder / Project Manager</p> -->
                                                 <!-- </div> -->
-                                                <a href="" target="blank" style="text-decoration: none;" class="tano-tano">
+                                                <a href="https://www.linkedin.com/in/anthony-takyi-36833384/" target="blank" style="text-decoration: none;" class="anth-anth">
+                                                    <div class="uk-card uk-card uk-card-body team-anth" style="padding: 0px; background-image: url(assets/images/prof-tekye.jpg); height: 280px; width: 265px; background-size: cover; background-position: center;">
+                                                        <div class="social-anth">
+                                                            <i style="margin-top: 10px; z-index: 5;" class="uk-margin-small-left" uk-icon="icon: linkedin; ratio: 1.5;"></i>
+                                                            <h5 style="margin-top: 160px; margin-left: 10px; color: #fff; font-weight: 600;">Anthony Takyi</h5>
+                                                            <p class="position" style="margin-top: -10px; margin-left: 10px; font-size: 12px; font-weight: 600;">Operations</p>
+                                                        </div>
+                                                    <!-- <img src="assets/images/baffour.jpg" alt="" class="teams" style=""> -->
+                                                    </div>
+                                                </a>
+                                                <a href="https://www.linkedin.com/in/tano-onovughe-76209a85/" target="blank" style="text-decoration: none;" class="tano-tano">
                                                     <div class="uk-card uk-card uk-card-body team-tano" style="padding: 0px; background-image: url(assets/images/tano.png); height: 280px; width: 265px; background-size: cover; background-position: center;">
                                                         <div class="social-tano">
                                                             <i style="margin-top: 10px; z-index: 5;" class="uk-margin-small-left" uk-icon="icon: linkedin; ratio: 1.5;"></i>
@@ -469,6 +494,10 @@
                                                     <!-- <img src="assets/images/baffour.jpg" alt="" class="teams" style=""> -->
                                                     </div>
                                                 </a>
+                                            </div>
+                                        </div>
+                                        <div class="core-team-images" style="padding: 0px 0px 50px 0px;">
+                                            <div class="uk-child-width-1-4@m uk-grid-small uk-grid-match" uk-grid>
                                                 <a href="https://www.linkedin.com/in/michael-sarpong/" target="blank" style="text-decoration: none;" class="mike-mike">
                                                     <div class="uk-card uk-card uk-card-body team-mike" style="padding: 0px; background-image: url(assets/images/mike.jpg); height: 280px; width: 265px; background-size: cover; background-position: center;">
                                                         <div class="social-mike">
@@ -479,10 +508,6 @@
                                                     <!-- <img src="assets/images/baffour.jpg" alt="" class="teams" style=""> -->
                                                     </div>
                                                 </a>
-                                            </div>
-                                        </div>
-                                        <div class="core-team-images" style="padding: 0px 0px 50px 0px;">
-                                            <div class="uk-child-width-1-4@m uk-grid-small uk-grid-match" uk-grid>
                                                 <a href="https://www.linkedin.com/in/peter-peregbakumo-526a34152" target="blank" style="text-decoration: none;" class="pete-pete">
                                                     <div class="uk-card uk-card uk-card-body team-pete" style="padding: 0px; background-image: url(assets/images/peter.jpg); height: 280px; width: 265px; background-size: cover; background-position: center;">
                                                         <div class="social-pete">
@@ -503,11 +528,6 @@
                                                     <!-- <img src="assets/images/baffour.jpg" alt="" class="teams" style=""> -->
                                                     </div>
                                                 </a>
-                                                <div>
-                                                    <div class="uk-card uk-card uk-card-body" style="padding: 0px;">
-                                                        <img src="assets/images/user-1.png" alt="">
-                                                    </div>
-                                                </div>
                                                 <div>
                                                     <div class="uk-card uk-card uk-card-body" style="padding: 0px;">
                                                         <img src="assets/images/user-1.png" alt="">
@@ -683,6 +703,12 @@
         });
         $('.team-sali').mouseleave(function() {
             $('.social-sali').hide();
+        });
+           $('.anth-anth').hover(function() {
+            $('.social-anth').show(300);
+        });
+        $('.team-anth').mouseleave(function() {
+            $('.social-anth').hide();
         });
 
     </script>

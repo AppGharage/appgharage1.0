@@ -271,29 +271,50 @@
     <div class="section">
         <div class="container" style="padding-top: 40px; padding-bottom: 40px;">
             <div class="row">
-                <div class="uk-child-width-1-3@m" uk-grid>
-                    <div class="card">
-                        <div class="uk-inline">
-                            <img src="./assets/images/new.jpg" alt="">
-                            <div class="uk-overlay uk-overlay-default uk-position-bottom">
-                                <p><b>AppGharage</b></p>
+                <div class="core-team-images">
+                    <div class="uk-child-width-1-3@m" uk-grid>
+                        <div class="card">
+                            <div class="uk-inline">
+                                <img src="./assets/images/appgharage.png" a href="#modal-media-image" alt="" uk-toggle>
+                                <div class="uk-overlay uk-overlay-default uk-position-center">
+                                    <p href="#modal-media-image" uk-toggle style="color:#19B5FE"><b>AppGharage Website</b></p>
+                                </div>
+                                <div id="modal-media-image" class="uk-flex-top" uk-modal>
+                                    <div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
+                                        <button class="uk-modal-close-outside" type="button" uk-close></button>
+                                        <img src="./assets/images/appg.png" alt="">
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card">
-                        <div class="uk-inline">
-                            <img src="./assets/images/new.jpg" alt="">
-                            <div class="uk-overlay uk-overlay-default uk-position-bottom">
-                                <p><b>InHealth</b></p>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="card">
-                        <div class="uk-inline">
-                            <img src="./assets/images/new.jpg" alt="">
-                            <div class="uk-overlay uk-overlay-default uk-position-bottom">
-                                <p><b>Ghana Payment Gateways</b></p>
+                        <div class="card">
+                            <div class="uk-inline">
+                                <img src="./assets/images/new.jpg" a href="#modal-media-image1" alt="" uk-toggle>
+                                <div class="uk-overlay uk-overlay-default uk-position-center">
+                                    <p href="#modal-media-image1" uk-toggle style="color:#19B5FE"><b>InHealth</b></p>
+                                </div>
+                                <div id="modal-media-image1" class="uk-flex-top" uk-modal>
+                                    <div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
+                                        <button class="uk-modal-close-outside" type="button" uk-close></button>
+                                        <img src="./assets/images/new.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="uk-inline">
+                                <img src="./assets/images/payment.png" a href="#modal-media-image2" alt="" uk-toggle>
+                                <div class="uk-overlay uk-overlay-default uk-position-center">
+                                    <p href="#modal-media-image2" uk-toggle style="color:#19B5FE"><b>Ghana Payment Gateways</b></p>
+                                </div>
+                                <div id="modal-media-image2" class="uk-flex-top" uk-modal>
+                                    <div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
+                                        <button class="uk-modal-close-outside" type="button" uk-close></button>
+                                        <img src="./assets/images/payment.png" alt="">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -321,30 +342,48 @@
                             <div class="uk-child-width-1-4@m uk-grid-small uk-grid-match" uk-grid>
 
                                 <div class="card col-sm-12 col-md-6 col-lg-3" style="padding:10px">
-                                    <div class="uk-card uk-card-default uk-card-body">
-                                        <img class="uk-border-circle" src="./assets/images/web.png" style="width:100%; "><br>
-                                        <label><input class="uk-checkbox" type="checkbox" > Website</label>
+                                    <div class="uk-card uk-card-default uk-card-body  ">
+                                        <center>
+                                            <div class="card-image" style="background-image: url('./assets/images/website.png')"></div>
+                                        </center>
+                                        <div style="position: absolute; left: 5px; bottom: 15px">
+                                            <label><input class="uk-checkbox" type="checkbox" checked> Website</label>
+                                        </div>
                                     </div>
                                 </div>
 
                                 <div class="card col-sm-12 col-md-6 col-lg-3" style="padding:10px">
-                                    <div class="uk-card uk-card-default uk-card-body">
-                                        <img class="uk-border-circle" src="./assets/images/app.png" style="width:100%; "><br>
-                                        <label><input class="uk-checkbox" type="checkbox" > Web Application</label>
+                                    <div class="uk-card uk-card-default  uk-card-body ">
+                                        <center>
+                                            <div class="card-image" style="background-image: url('./assets/images/web apps.png')"></div>
+                                        </center>
+
+                                        <div style="position: absolute; left: 5px; bottom: 15px">
+                                            <label><input class="uk-checkbox" type="checkbox"> Web Apps</label>
+                                        </div>
                                     </div>
                                 </div>
 
                                 <div class="card col-sm-12 col-md-6 col-lg-3" style="padding:10px">
-                                    <div class="uk-card uk-card-default uk-card-body">
-                                        <img class="uk-border-circle" src="./assets/images/android.png" style="width:100%; "><br>
-                                        <label><input class="uk-checkbox" type="checkbox" > Android</label>
+                                    <div class="uk-card uk-card-default uk-card-body ">
+                                        <center>
+                                            <div class="card-image" style="background-image: url('./assets/images/android.png')"></div>
+                                        </center>
+
+                                        <div style="position: absolute; left: 5px; bottom: 15px">
+                                            <label><input class="uk-checkbox" type="checkbox"> Android</label>
+                                        </div>
                                     </div>
                                 </div>
 
                                 <div class="card col-sm-12 col-md-6 col-lg-3" style="padding:10px">
-                                    <div class="uk-card uk-card-default uk-card-body">
-                                        <img class="uk-border-circle" src="./assets/images/ios.png" style="width:70%"><br>
-                                        <label><input class="uk-checkbox" type="checkbox"> iOS</label>
+                                    <div class="uk-card uk-card-default uk-card-body ">
+                                        <center>
+                                            <div class="card-image" style="background-image: url('./assets/images/ios.png')"></div>
+                                        </center>
+                                        <div style="position: absolute; left: 5px; bottom: 15px;">
+                                            <label><input class="uk-checkbox" type="checkbox"> IOS</label>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -379,17 +418,17 @@
                             <h4>Design</h4>
                             <p>Complete Solutions</p>
                             <p> <img src="./assets/images/calendar.png" alt="calendar"> 12 weeks</p>
-                            <p><img src="./assets/images/$.png" alt="$ sign"> 90k +</p>
+                            <p><img src="./assets/images/$.png" alt="$ sign"> 90 Ghs +</p>
                         </div>
                         <div class="uk-card-footer">
-                            <p style="font-size:12px; color:#000">Please note that these numbers are not final. They are just an approximation, to give you an understanding about budget ranges.<br><br>Send us more detail and we will do an individual estimation
-                            </p>
+                            <p style="font-size:12px; color:#000">Please note that these numbers are not final. They are just an approximation, to give you an understanding about budget ranges.<br><br> <b>Send us more detail and we will do an individual estimation
+                                </b></p>
                         </div>
 
-                        <button class="uk-button uk-button-primary uk-box-shadow-large" style=" background: #4596EA; color:white; border-radius: 5px; margin:10px; ">Send</button>
+                        <div class="col-sm-12 col-md-8 col-lg-8" style="padding:5px">
+                            <h4><button class="uk-button uk-button-primary uk-box-shadow-large" style=" background: #4596EA; color:white; border-radius: 5px; margin:10px; font-size:20px">Send</button></h4>
+                        </div>
                     </div>
-
-
                 </div>
             </div>
         </div>

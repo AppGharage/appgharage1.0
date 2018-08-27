@@ -30,7 +30,7 @@
 <body>
 
     <header>
-        <div class="header" style="">
+        <div class="header">
             <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light; top: 200">
                 <nav class="uk-navbar-container uk-margin uk-navbar mobile-navbar" uk-navbar="" style="padding-top: 20px; padding-bottom: 20px; padding-left: 6%; padding-right: 6%;">
 
@@ -59,17 +59,17 @@
                                                             <li>Create stunning visuals and experiences</li>
                                                         </ul>
                                                         <ul class="uk-nav uk-navbar-dropdown-nav" style="padding-top: 20px;">
-                                                            <li class="uk-active"><a href="#">Development</a></li>
+                                                            <li class="uk-active"><a href="pricing.html">Development</a></li>
                                                             <li>Build a launch-ready product</li>
                                                         </ul>
                                                     </div>
                                                     <div class="col-sm-12 col-md-6 col-lg-6">
                                                         <ul class="uk-nav uk-navbar-dropdown-nav">
-                                                            <li class="uk-active"><a href="#">Prototyping</a></li>
+                                                            <li class="uk-active"><a href="prototyping.html">Prototyping</a></li>
                                                             <li>Test product concepts quickly</li>
                                                         </ul>
                                                         <ul class="uk-nav uk-navbar-dropdown-nav" style="padding-top: 20px;">
-                                                            <li class="uk-active"><a href="#">Maintenance</a></li>
+                                                            <li class="uk-active"><a href="maintenance.html">Maintenance</a></li>
                                                             <li>Get ongoing development support</li>
                                                         </ul>
                                                     </div>
@@ -103,7 +103,7 @@
                                                             <li>Access a global network of elite knowledge workers</li>
                                                         </ul>
                                                         <ul class="uk-nav uk-navbar-dropdown-nav" style="padding-top: 20px;">
-                                                            <li class="uk-active"><a href="#">Pricing</a></li>
+                                                            <li class="uk-active"><a href="pricing.html">Pricing</a></li>
                                                             <li>Estimate cost of your custom software</li>
                                                         </ul>
                                                     </div>
@@ -157,7 +157,7 @@
                                                             <li>Join a team solving tough problems</li>
                                                         </ul>
                                                         <ul class="uk-nav uk-navbar-dropdown-nav" style="padding-top: 20px;">
-                                                            <li class="uk-active"><a href="#">Pricing</a></li>
+                                                            <li class="uk-active"><a href="pricing.html">Pricing</a></li>
                                                             <li>Work on interesting projects with smart people</li>
                                                         </ul>
                                                     </div>
@@ -193,21 +193,21 @@
                                     <li class="uk-nav-header">Solutions</li>
 
                                     <li><a href="design.html">Design</a></li>
-                                    <li><a href="#">Development</a></li>
-                                    <li><a href="#">Prototyping</a></li>
-                                    <li><a href="#">Maintenance</a></li>
+                                    <li><a href="pricing.html">Development</a></li>
+                                    <li><a href="prototyping.html">Prototyping</a></li>
+                                    <li><a href="maintenance.html">Maintenance</a></li>
 
                                     <li class="uk-nav-header">Platform</li>
 
                                     <li><a href="#">Talent</a></li>
-                                    <li><a href="#">Pricing</a></li>
+                                    <li><a href="pricing.html">Pricing</a></li>
                                     <li><a href="https://blog.appgharage.com/">Blog</a></li>
                                     <li><a href="https://curriculum.appgharage.com/">Developer Curriculum</a></li>
 
                                     <li class="uk-nav-header">Company</li>
 
                                     <li><a href="about.html">About</a></li>
-                                    <li><a href="#">Pricing</a></li>
+                                    <li><a href="pricing.html">Pricing</a></li>
 
                                     <li class="uk-nav-divider"></li>
                                     <li><a href="contact.html" class="uk-button uk-button-primary contact">Contact</a></li>
@@ -271,31 +271,60 @@
     <div class="section">
         <div class="container" style="padding-top: 40px; padding-bottom: 40px;">
             <div class="row">
-                <div class="uk-child-width-1-3@m" uk-grid>
-                    <div class="card">
-                        <div class="uk-inline">
-                            <img src="./assets/images/new.jpg" alt="">
-                            <div class="uk-overlay uk-overlay-default uk-position-bottom">
-                                <p><b>AppGharage</b></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="uk-inline">
-                            <img src="./assets/images/new.jpg" alt="">
-                            <div class="uk-overlay uk-overlay-default uk-position-bottom">
-                                <p><b>InHealth</b></p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="core-team-images">
+                    <div class="uk-child-width-1-3@m" uk-grid>
 
-                    <div class="card">
-                        <div class="uk-inline">
-                            <img src="./assets/images/new.jpg" alt="">
-                            <div class="uk-overlay uk-overlay-default uk-position-bottom">
-                                <p><b>Ghana Payment Gateways</b></p>
+                        <div>
+                            <div class="uk-card uk-card-default" style="min-height:263px">
+                                <div class="uk-card-media-top">
+                                    <img src="./assets/images/appgharage.png" a href="#modal-media-image" alt="" uk-toggle>
+                                </div>
+                                <div class="uk-overlay uk-overlay-default uk-position-bottom">
+                                    <p href="#modal-media-image" uk-toggle><b>AppGharage</b></p>
+                                </div>
+                                <div id="modal-media-image" class="uk-flex-top" uk-modal>
+                                    <div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
+                                        <button class="uk-modal-close-outside" type="button" uk-close></button>
+                                        <img src="./assets/images/appg.png" alt="">
+                                    </div>
+                                </div>
                             </div>
                         </div>
+
+                        <div>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top">
+                                    <img src="./assets/images/new.jpg" a href="#modal-media-image1" alt="" uk-toggle>
+                                </div>
+                                <div class="uk-overlay uk-overlay-default uk-position-bottom">
+                                    <p href="#modal-media-image1" uk-toggle><b>InHealth</b></p>
+                                </div>
+                                <div id="modal-media-image1" class="uk-flex-top" uk-modal>
+                                    <div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
+                                        <button class="uk-modal-close-outside" type="button" uk-close></button>
+                                        <img src="./assets/images/new.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="uk-card uk-card-default" style="min-height:200px">
+                                <div class="uk-card-media-top">
+                                    <img src="./assets/images/payment.png" a href="#modal-media-image2" alt="" uk-toggle>
+                                </div>
+                                <div class="uk-overlay uk-overlay-default uk-position-bottom">
+                                    <p href="#modal-media-image2" uk-toggle><b>Ghana Payment Gateways</b></p>
+                                </div>
+                                <div id="modal-media-image2" class="uk-flex-top" uk-modal>
+                                    <div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
+                                        <button class="uk-modal-close-outside" type="button" uk-close></button>
+                                        <img src="./assets/images/payment.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
 
@@ -321,37 +350,55 @@
                             <div class="uk-child-width-1-4@m uk-grid-small uk-grid-match" uk-grid>
 
                                 <div class="card col-sm-12 col-md-6 col-lg-3" style="padding:10px">
-                                    <div class="uk-card uk-card-default uk-card-body">
-                                        <img class="uk-border-circle" src="./assets/images/web.png" style="width:100%; "><br>
-                                        <label><input class="uk-checkbox" type="checkbox" > Website</label>
+                                    <div class="uk-card uk-card-default uk-card-body  ">
+                                        <center>
+                                            <div class="card-image" style="background-image: url('./assets/images/website.png')"></div>
+                                        </center>
+                                        <div style="position: absolute; left: 5px; bottom: 15px">
+                                            <label><input class="uk-checkbox" type="checkbox" checked> Website</label>
+                                        </div>
                                     </div>
                                 </div>
 
                                 <div class="card col-sm-12 col-md-6 col-lg-3" style="padding:10px">
-                                    <div class="uk-card uk-card-default uk-card-body">
-                                        <img class="uk-border-circle" src="./assets/images/app.png" style="width:100%; "><br>
-                                        <label><input class="uk-checkbox" type="checkbox" > Web Application</label>
+                                    <div class="uk-card uk-card-default  uk-card-body ">
+                                        <center>
+                                            <div class="card-image" style="background-image: url('./assets/images/web apps.png')"></div>
+                                        </center>
+
+                                        <div style="position: absolute; left: 5px; bottom: 15px">
+                                            <label><input class="uk-checkbox" type="checkbox"> Web Apps</label>
+                                        </div>
                                     </div>
                                 </div>
 
                                 <div class="card col-sm-12 col-md-6 col-lg-3" style="padding:10px">
-                                    <div class="uk-card uk-card-default uk-card-body">
-                                        <img class="uk-border-circle" src="./assets/images/android.png" style="width:100%; "><br>
-                                        <label><input class="uk-checkbox" type="checkbox" > Android</label>
+                                    <div class="uk-card uk-card-default uk-card-body ">
+                                        <center>
+                                            <div class="card-image" style="background-image: url('./assets/images/android.png')"></div>
+                                        </center>
+
+                                        <div style="position: absolute; left: 5px; bottom: 15px">
+                                            <label><input class="uk-checkbox" type="checkbox"> Android</label>
+                                        </div>
                                     </div>
                                 </div>
 
                                 <div class="card col-sm-12 col-md-6 col-lg-3" style="padding:10px">
-                                    <div class="uk-card uk-card-default uk-card-body">
-                                        <img class="uk-border-circle" src="./assets/images/ios.png" style="width:70%"><br>
-                                        <label><input class="uk-checkbox" type="checkbox"> iOS</label>
+                                    <div class="uk-card uk-card-default uk-card-body ">
+                                        <center>
+                                            <div class="card-image" style="background-image: url('./assets/images/ios.png')"></div>
+                                        </center>
+                                        <div style="position: absolute; left: 5px; bottom: 15px;">
+                                            <label><input class="uk-checkbox" type="checkbox"> IOS</label>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="row" style="margin-top:20%; margin-bottom:15%">
+                    <div class="row" style="margin-top:7%; margin-bottom:15%">
                         <div class="col">
                             <h3 style="color:#5BA2EC;">SERVICES</h3>
                             <div class="uk-form-controls" style="color:#000; font-weight: 300; font-size: 18px;">
@@ -379,17 +426,14 @@
                             <h4>Design</h4>
                             <p>Complete Solutions</p>
                             <p> <img src="./assets/images/calendar.png" alt="calendar"> 12 weeks</p>
-                            <p><img src="./assets/images/$.png" alt="$ sign"> 90k +</p>
+                            <p><img src="./assets/images/$.png" alt="$ sign"> 90 Ghs +</p>
                         </div>
                         <div class="uk-card-footer">
-                            <p style="font-size:12px; color:#000">Please note that these numbers are not final. They are just an approximation, to give you an understanding about budget ranges.<br><br>Send us more detail and we will do an individual estimation
-                            </p>
+                            <p style="font-size:12px; color:#000">Please note that these numbers are not final. They are just an approximation, to give you an understanding about budget ranges.<br><br> <b>Send us more detail and we will do an individual estimation
+                                </b></p>
+                            <button class="uk-button " style=" background: #4596EA; color:white; border-radius: 5px;  margin-top: 3%;">SEND</button>
                         </div>
-
-                        <button class="uk-button uk-button-primary uk-box-shadow-large" style=" background: #4596EA; color:white; border-radius: 5px; margin:10px; ">Send</button>
                     </div>
-
-
                 </div>
             </div>
         </div>

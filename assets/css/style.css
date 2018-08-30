@@ -164,3 +164,40 @@ button {}
 .dd{
     padding-bottom: 100px !important;
 }
+
+  * {
+            /*outline: 1px solid green !important;*/
+        }
+        
+        body {
+            background-image: none !important;
+        }
+        
+        .uk-navbar-nav li a {
+            color: #000 !important;
+            font-family: 'Comfortaa', cursive;
+        }
+
+        
+        .team-details {
+            display: none;
+            width: 265px;
+            height: 280px;
+            z-index: 3;
+            color: #fff;
+        }
+        .team-details, .team-details h5 {
+            color: #fff !important;
+        }
+
+        .sub-team:hover {
+            filter: grayscale(1);
+        }
+
+        .team-details {
+            color: white !important;
+        }
+
+        .sub-team:hover .team-details {
+            display: block;
+        }  

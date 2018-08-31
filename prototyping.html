@@ -24,6 +24,21 @@
             color: #000 !important;
             font-family: 'Comfortaa', cursive;
         }
+        
+        .uk-checkbox {
+            /*visibility: hidden;*/
+            height: 40px;
+            width: 40px;
+            margin: 0 !important;
+            border: 0 !important;
+            background-color: #eee;
+            float: left;
+        }
+        
+        .uk-card-body1 {
+            margin: 0 !important;
+            padding: 0 !important;
+        }
     </style>
 </head>
 
@@ -292,9 +307,9 @@
                         </div>
 
                         <div>
-                            <div class="uk-card uk-card-default">
+                            <div class="uk-card uk-card-default" style="min-height:263px">
                                 <div class="uk-card-media-top">
-                                    <img src="./assets/images/new.jpg" a href="#modal-media-image1" alt="" uk-toggle>
+                                    <img src="./assets/images/inhealth.png" a href="#modal-media-image1" alt="" uk-toggle>
                                 </div>
                                 <div class="uk-overlay uk-overlay-default uk-position-bottom">
                                     <p href="#modal-media-image1" uk-toggle><b>InHealth</b></p>
@@ -302,14 +317,14 @@
                                 <div id="modal-media-image1" class="uk-flex-top" uk-modal>
                                     <div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
                                         <button class="uk-modal-close-outside" type="button" uk-close></button>
-                                        <img src="./assets/images/new.jpg" alt="">
+                                        <img src="./assets/images/inh.png" alt="">
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                         <div>
-                            <div class="uk-card uk-card-default" style="min-height:200px">
+                            <div class="uk-card uk-card-default" style="min-height:230px">
                                 <div class="uk-card-media-top">
                                     <img src="./assets/images/payment.png" a href="#modal-media-image2" alt="" uk-toggle>
                                 </div>
@@ -334,63 +349,104 @@
     </div>
 
     <div class="section">
-        <div class="container" style="margin-bottom:5%">
+        <div class="container" style="margin-bottom:10%; margin-top:5%">
             <div class="row">
                 <div class="col">
-                    <div style="font-size: 30px; color: #5BA2EC;">
-                        <p>I'M INTERESTED IN</p>
+                    <div>
+                        <h3 style="color: #5BA2EC;">I'M INTERESTED IN</h3>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-8">
-                    <div class="row uk-grid-match">
 
-                        <div class="col-sm-12 col-md-6 col-lg-3">
-                            <div class="uk-card uk-card-default uk-card-body  ">
-                                <center>
-                                    <div class="card-image" style="background-image: url('./assets/images/website.png')"></div>
-                                </center>
-                                <div style="position: absolute; left: 5px; bottom: 15px">
-                                    <label><input class="uk-checkbox" type="checkbox" checked> Website</label>
-                                </div>
-                            </div>
+            <div class="row ">
+                <div class="col-sm-12 col-md-12 col-lg-8 ">
+                    <div class="row uk-grid-match ">
 
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-3">
-                            <div class="uk-card uk-card-default  uk-card-body ">
-                                <center>
-                                    <div class="card-image" style="background-image: url('./assets/images/web apps.png')"></div>
-                                </center>
-
-                                <div style="position: absolute; left: 5px; bottom: 15px">
-                                    <label><input class="uk-checkbox" type="checkbox"> Web Apps</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-3">
-                            <div class="uk-card uk-card-default uk-card-body ">
-                                <center>
-                                    <div class="card-image" style="background-image: url('./assets/images/android.png')"></div>
-                                </center>
-
-                                <div style="position: absolute; left: 5px; bottom: 15px">
-                                    <label><input class="uk-checkbox" type="checkbox"> Android</label>
+                        <div class="card col-sm-12 col-md-6 col-lg-3 " style="padding:10px;">
+                            <div>
+                                <div class="uk-card uk-card-hover uk-card-default">
+                                    <div class="uk-card-media-top">
+                                        <div class="card-header">
+                                            <input class="uk-checkbox" type="checkbox" id="1" value="1">
+                                        </div>
+                                    </div>
+                                    <div class="uk-card-body1" style="max-height:350px">
+                                        <div class="card-content card-state-icon"></div>
+                                        <label for="1">
+                                            <div>
+                                                <img src="./assets/images/website.png" alt="" style="width:230px">
+                                            </div>
+                                            <p class="uk-card-title">Website</p>
+                                        </label>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-6 col-lg-3">
-                            <div class="uk-card uk-card-default uk-card-body ">
-                                <center>
-                                    <div class="card-image" style="background-image: url('./assets/images/ios.png')"></div>
-                                </center>
-                                <div style="position: absolute; left: 5px; bottom: 15px;">
-                                    <label><input class="uk-checkbox" type="checkbox"> IOS</label>
+
+                        <div class="card col-sm-12 col-md-6 col-lg-3" style="padding:10px;">
+                            <div>
+                                <div class="uk-card uk-card-hover uk-card-default">
+                                    <div class="uk-card-media-top">
+                                        <div class="card-header">
+                                            <input class="uk-checkbox" type="checkbox" id="2" value="1">
+                                        </div>
+                                    </div>
+                                    <div class="uk-card-body1" style="max-height:100%">
+                                        <div class="card-content card-state-icon"></div>
+                                        <label for="2">
+                                                    <div >
+                                                        <img src="./assets/images/web apps.png" alt="" style="width:90%">
+                                                    </div>
+                                                    <p class="uk-card-title">Web Apps</p>
+                                                </label>
+                                    </div>
                                 </div>
                             </div>
+                        </div>
 
+                        <div class="card col-sm-12 col-md-6 col-lg-3" style="padding:10px">
+                            <div>
+                                <div class="uk-card uk-card-hover uk-card-default">
+                                    <div class="uk-card-media-top">
+                                        <div class="card-header">
+                                            <input class="uk-checkbox" type="checkbox" id="3" value="1">
+                                        </div>
+                                    </div>
+                                    <div class="uk-card-body1" style="max-height:330px">
+                                        <div class="card-content card-state-icon"></div>
+                                        <label for="3">
+                                                    <div >
+                                                        <img src="./assets/images/android.png" alt="" style="width:90%">
+                                                    </div>
+                                                    <p class="uk-card-title">Android</p>
+                                                </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card col-sm-12 col-md-6 col-lg-3" style="padding:10px">
+                            <div>
+                                <div class="uk-card uk-card-hover uk-card-default">
+                                    <div class="uk-card-media-top">
+                                        <div class="card-header">
+                                            <input class="uk-checkbox" type="checkbox" id="4" value="1">
+                                        </div>
+                                    </div>
+                                    <div class="uk-card-body1" style="max-height:330px; min-height:200px">
+                                        <div class="card-content card-state-icon"></div>
+                                        <label for="4">
+                                            <div style="height:150px;">
+                                                <img src="./assets/images/ios.png" alt="" style="width:80%">
+                                            </div>
+                                            <p class="uk-card-title">iOS</p>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+
                     <div class="row" style="margin-top:7%">
                         <div class="col">
                             <h3 style="color:rgb(120, 164, 211);">SERVICES</h3>
@@ -413,8 +469,8 @@
                         <div class="uk-card-body">
                             <h4>Website</h4>
                             <p>Complete Solutions</p>
-                            <p> <img src="./assets/images/calendar.png" alt="calendar"> 12 weeks</p>
-                            <p><img src="./assets/images/$.png" alt="$ sign"> 90 Ghs+</p>
+                            <p> <img src="./assets/images/calendar.png" alt="calendar"> 6 weeks</p>
+                            <p><img src="./assets/images/$.png" alt="$ sign"> 10k Ghs+</p>
                         </div>
                         <div class="uk-card-footer">
                             <p style="font-size:16px; color:#000">Please note that these numbers are not final. They are just an approximation, to give you an understanding about budget ranges.<br><br>
@@ -428,7 +484,6 @@
             </div>
         </div>
     </div>
-
 
 
 

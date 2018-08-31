@@ -1,7 +1,9 @@
 * {
     font-family: 'Comfortaa', cursive !important;
 }
-html, body {
+
+html,
+body {
     max-width: 100% !important;
     overflow-x: hidden !important;
 }
@@ -24,7 +26,8 @@ a {}
 span {}
 
 button {}
-.logo{
+
+.logo {
     width: 150px !important;
 }
 
@@ -37,7 +40,8 @@ button {}
     color: #4596EA !important;
     outline: 1px solid #4596EA !important;
 }
-.contact{
+
+.contact {
     background-color: transparent !important;
     color: #4596EA !important;
     outline: solid 1px;
@@ -158,46 +162,52 @@ button {}
 .mobile ul li {
     display: block;
 }
-.uk-nav-header{
+
+.uk-nav-header {
     color: #c4c4c4 !important;
 }
-.dd{
+
+.dd {
     padding-bottom: 100px !important;
 }
 
-  * {
-            /*outline: 1px solid green !important;*/
-        }
-        
-        body {
-            background-image: none !important;
-        }
-        
-        .uk-navbar-nav li a {
-            color: #000 !important;
-            font-family: 'Comfortaa', cursive;
-        }
+* {
+    /*outline: 1px solid green !important;*/
+}
 
-        
-        .team-details {
-            display: none;
-            width: 265px;
-            height: 280px;
-            z-index: 3;
-            color: #fff;
-        }
-        .team-details, .team-details h5 {
-            color: #fff !important;
-        }
+body {
+    background-image: none !important;
+}
 
-        .sub-team:hover {
-            filter: grayscale(1);
-        }
+.uk-navbar-nav li a {
+    color: #000 !important;
+    font-family: 'Comfortaa', cursive;
+}
 
-        .team-details {
-            color: white !important;
-        }
+.team-details {
+    display: none;
+    width: 265px;
+    height: 280px;
+    z-index: 3;
+    color: #fff;
+    font-weight: 600;
+}
 
-        .sub-team:hover .team-details {
-            display: block;
-        }  
+.team-details,
+.team-details h5 {
+    color: #fff!important;
+    font-weight: 600;
+}
+
+.sub-team:hover {
+    filter: grayscale(1);
+}
+
+.team-details {
+    color: #fff!important;
+    font-weight: 600;
+}
+
+.sub-team:hover .team-details {
+    display: block;
+}

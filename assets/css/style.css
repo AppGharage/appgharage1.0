@@ -213,6 +213,10 @@ body {
     display: block;
 }
 
-.uk-card {
+.uk-card-media-top {
+    cursor: pointer;
+}
+
+.card {
     cursor: pointer;
 }

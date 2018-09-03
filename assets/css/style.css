@@ -83,6 +83,7 @@ button {}
 
 .card {
     text-align: center;
+    cursor: pointer;
 }
 
 .card-image {
@@ -210,4 +211,8 @@ body {
 
 .sub-team:hover .team-details {
     display: block;
+}
+
+.uk-card {
+    cursor: pointer;
 }
